@@ -1,0 +1,155 @@
+2023-06-11 12:11:05:449 [Appium] Welcome to Appium v1.22.3
+2023-06-11 12:11:05:453 [Appium] Non-default server args:
+2023-06-11 12:11:05:454 [Appium]   basePath: /wd/hub/
+2023-06-11 12:11:05:455 [Appium]   logFile: /Users/abubakar/eclipse/Appium-artifact/src/test/java/org.AutomationAcademy/resources/logs/appiumServerLogs.txt
+2023-06-11 12:11:05:455 [Appium]   localTimezone: true
+2023-06-11 12:11:05:494 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2023-06-11 12:11:05:648 [HTTP] --> GET /wd/hub/status
+2023-06-11 12:11:05:648 [HTTP] {}
+2023-06-11 12:11:05:650 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-06-11 12:11:05:652 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2023-06-11 12:11:05:666 [HTTP] <-- GET /wd/hub/status 200 11 ms - 68
+2023-06-11 12:11:05:667 [HTTP] 
+2023-06-11 12:11:27:739 [HTTP] Request idempotency key: a89a8ac3-7ad1-431d-8547-ff5d6abd11a5
+2023-06-11 12:11:27:818 [HTTP] --> POST /wd/hub/session
+2023-06-11 12:11:27:818 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"//Users//abubakar//eclipse/Appium-artifact//src//test//java//resources//ApiDemos-debug.apk","appium:automationName":"UIAutomator2","appium:deviceName":"Pixel 5 (Edited) API 34","platformName":"ANDROID"}}}
+2023-06-11 12:11:27:821 [W3C] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"//Users//abubakar//eclipse/Appium-artifact//src//test//java//resources//ApiDemos-debug.apk","appium:automationName":"UIAutomator2","appium:deviceName":"Pixel 5 (Edited) API 34","platformName":"ANDROID"}}]
+2023-06-11 12:11:27:827 [BaseDriver] Event 'newSessionRequested' logged at 1686478287823 (12:11:27 GMT+0200 (Central European Summer Time))
+2023-06-11 12:11:28:510 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2023-06-11 12:11:28:514 [BaseDriver] Creating session with W3C capabilities: {
+2023-06-11 12:11:28:514 [BaseDriver]   "alwaysMatch": {
+2023-06-11 12:11:28:514 [BaseDriver]     "platformName": "ANDROID",
+2023-06-11 12:11:28:515 [BaseDriver]     "appium:app": "//Users//abubakar//eclipse/Appium-artifact//src//test//java//resources//ApiDemos-debug.apk",
+2023-06-11 12:11:28:515 [BaseDriver]     "appium:automationName": "UIAutomator2",
+2023-06-11 12:11:28:515 [BaseDriver]     "appium:deviceName": "Pixel 5 (Edited) API 34"
+2023-06-11 12:11:28:515 [BaseDriver]   },
+2023-06-11 12:11:28:515 [BaseDriver]   "firstMatch": [
+2023-06-11 12:11:28:515 [BaseDriver]     {}
+2023-06-11 12:11:28:515 [BaseDriver]   ]
+2023-06-11 12:11:28:515 [BaseDriver] }
+2023-06-11 12:11:28:525 [BaseDriver] Session created with session id: 4fda4f1a-2669-41c5-aa93-6ce36f7482e3
+2023-06-11 12:11:28:528 [BaseDriver] Using local app '//Users//abubakar//eclipse/Appium-artifact//src//test//java//resources//ApiDemos-debug.apk'
+2023-06-11 12:11:28:529 [UiAutomator2] Checking whether app is actually present
+2023-06-11 12:11:28:550 [UiAutomator2] Deleting UiAutomator2 session
+2023-06-11 12:11:28:552 [BaseDriver] Event 'newSessionStarted' logged at 1686478288551 (12:11:28 GMT+0200 (Central European Summer Time))
+2023-06-11 12:11:28:680 [W3C] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+2023-06-11 12:11:28:681 [W3C]     at requireSdkRoot (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/helpers.js:36:11)
+2023-06-11 12:11:28:681 [W3C]     at Function.createADB (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/adb.js:57:23)
+2023-06-11 12:11:28:681 [W3C]     at Object.createBaseADB (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:129:20)
+2023-06-11 12:11:28:681 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:214:29)
+2023-06-11 12:11:28:681 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:338:40)
+2023-06-11 12:11:28:682 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:18)
+2023-06-11 12:11:28:682 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+2023-06-11 12:11:28:712 [HTTP] <-- POST /wd/hub/session 500 893 ms - 813
+2023-06-11 12:11:28:714 [HTTP] 
+2023-06-11 12:13:23:461 [HTTP] --> GET /wd/hub/status
+2023-06-11 12:13:23:462 [HTTP] {}
+2023-06-11 12:13:23:463 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-06-11 12:13:23:476 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:930:11)
+    at Socket._write (node:net:942:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2023-06-11 12:13:23:478 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:930:11)
+    at Socket._write (node:net:942:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2023-06-11 12:13:23:480 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:930:11)
+    at Socket._write (node:net:942:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2023-06-11 12:13:23:490 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:930:11)
+    at Socket._write (node:net:942:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2023-06-11 12:13:23:492 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:930:11)
+    at Socket._write (node:net:942:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2023-06-11 12:13:23:503 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:930:11)
+    at Socket._write (node:net:942:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
